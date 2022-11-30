@@ -1,0 +1,25 @@
+HTTrack3.44-1+htsswf+htsjava launched on Thu, 24 Nov 2022 10:51:06 at http://www.engpellmaquinas.com.br/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*/http://www.engpellmaquinas.com.br//*
+(winhttrack -qwr20%e0C2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F  -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2010], %s -->" -%l "en, en, *" http://www.engpellmaquinas.com.br/ -O1 C:\Users\alex.rmaia\Downloads\Site\Eng +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*/http://www.engpellmaquinas.com.br//* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:56:27	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/3 (from www.engpellmaquinas.com.br/)
+10:56:27	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/1 (from www.engpellmaquinas.com.br/)
+10:56:27	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/2 (from www.engpellmaquinas.com.br/)
+10:56:27	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/6 (from www.engpellmaquinas.com.br/)
+10:56:27	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/4 (from www.engpellmaquinas.com.br/)
+10:56:27	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/7 (from www.engpellmaquinas.com.br/)
+10:56:31	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/img/content/bg/parallax-bg-7.jpg (from www.engpellmaquinas.com.br/css/customizer/pages.css)
+10:58:04	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/Popover requires tooltip.js (from www.engpellmaquinas.com.br/js/bootstrap.min.js)
+10:58:05	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/php/form.php (from www.engpellmaquinas.com.br/js/main.js?79875)
+10:58:05	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/php/sent-email.php (from www.engpellmaquinas.com.br/js/main.js?79875)
+10:58:05	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/" + img_src + " (from www.engpellmaquinas.com.br/js/jquery.prettyPhoto.js)
+10:58:49	Error: 	"No data (connection closed)" (-4) after 2 retries at link www.engpellmaquinas.com.br/images/img_video_banner.png (from www.engpellmaquinas.com.br/)
+10:58:50	Error: 	"Not Found" (404) at link www.engpellmaquinas.com.br/Version/ (from www.engpellmaquinas.com.br/js/revolution/jquery.plugins.min.js)
+10:59:00	Error: 	"No data (connection closed)" (-4) after 2 retries at link www.engpellmaquinas.com.br/img/content/bg/parallax-bg-14.jpg (from www.engpellmaquinas.com.br/css/customizer/pages.css)
+
+HTTrack Website Copier/3.44-1 mirror complete in 7 minutes 54 seconds : 227 links scanned, 187 files written (12091471 bytes overall) [12571853 bytes received at 26522 bytes/sec], 3.0 requests per connection
+(14 errors, 0 warnings, 0 messages)

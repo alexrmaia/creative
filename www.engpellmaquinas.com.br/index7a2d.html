@@ -1,0 +1,1169 @@
+<!doctype html>
+<html>
+
+<!-- Mirrored from www.engpellmaquinas.com.br/?idioma=ES by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 24 Nov 2022 13:56:25 GMT -->
+<head>
+      <meta charset="utf-8">
+      <title>Eng-Pell</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="kzulo.com.br">
+      <meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      
+		
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="favicon.ico">
+      <!-- Font -->
+      <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Arimo:300,400,700,400italic,700italic'>
+      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">      
+
+      <!-- Plugins CSS -->
+      <link rel="stylesheet"  href="css/slider.css">
+      <link rel="stylesheet"  href="css/buttons/buttons.css">
+
+      <link rel="stylesheet"  href="css/bootstrap.min.css">
+      <link rel="stylesheet"  href="css/jslider.css">
+      <link rel="stylesheet"  href="css/settingsb3dd.css?12312">
+      <link rel="stylesheet"  href="css/prettyPhoto.css">
+
+      <link rel="stylesheet"  href="css/animate.css">
+
+      <link rel="stylesheet"  href="css/jquery.scrollbar.css">
+      <!-- Theme CSS -->
+      <link rel="stylesheet"  href="css/style.css">
+      <link rel="stylesheet"  href="css/by.css" type="text/css" />  
+      <!-- Responsive CSS -->
+      <link rel="stylesheet"  href="css/responsive.css">
+      <!-- Custom CSS -->
+      <link rel="stylesheet"  href="css/customizer/pages.css">
+      <link rel="stylesheet"  href="css/customizer/dark-section.css">
+      <link rel="stylesheet"  href="css/customizer/home-pages-customizer.css">
+      <!-- IE Styles-->
+      <link rel='stylesheet'  href="css/ie/ie.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <link rel='stylesheet'  href="http://www.engpellmaquinas.com.br/css/ie/ie8.css">
+      <![endif]-->
+   </head>
+       <script type='text/javascript'>
+var BrowserDetect = 
+{
+    init: function () 
+    {
+        this.browser = this.searchString(this.dataBrowser) || "Other";
+        this.version = this.searchVersion(navigator.userAgent) ||       this.searchVersion(navigator.appVersion) || "Unknown";		
+		
+    },
+
+    searchString: function (data) 
+    {
+        for (var i=0 ; i < data.length ; i++)   
+        {
+            var dataString = data[i].string;
+            this.versionSearchString = data[i].subString;
+
+            if (dataString.indexOf(data[i].subString) != -1)
+            {
+                return data[i].identity;
+            }
+        }
+    },
+
+    searchVersion: function (dataString) 
+    {
+        var index = dataString.indexOf(this.versionSearchString);
+        if (index == -1) return;
+        return parseFloat(dataString.substring(index+this.versionSearchString.length+1));
+    },
+
+    dataBrowser: 
+    [
+        { string: navigator.userAgent, subString: "Chrome",  identity: "Chrome" },
+        { string: navigator.userAgent, subString: "MSIE",    identity: "Explorer" },
+        { string: navigator.userAgent, subString: "Firefox", identity: "Firefox" },
+        { string: navigator.userAgent, subString: "Safari",  identity: "Safari" },
+        { string: navigator.userAgent, subString: "Opera",   identity: "Opera" }
+    ]
+
+};
+
+BrowserDetect.init();
+
+
+</script>
+<script type='text/javascript'>
+
+var navegador = BrowserDetect.browser;
+var versao = BrowserDetect.version;
+
+//console.log (navegador+'-'+versao)
+if (navegador == "Explorer") {
+//	console.log('IE')
+	//if (versao < 9) {
+	if (versao < 10) {
+		//console.log('menor que 9')
+		
+		//$.blockUI({ message: '<h1><img src="busy.gif" /> Just a moment...</h1>' }); 
+		navegador_antigo()
+	}
+	else
+	{
+		//console.log('maior que 9')
+	}
+} else
+{
+	//console.log('NOT IE')
+}
+
+function navegador_antigo(){
+	//alert('ie veio')
+	document.location.href='navegador_antigo.html';
+		
+}
+
+</script>		
+
+   <body class="one-page fixed-header">
+      <div class="page-box">
+         <div class="page-box-content">
+            <!-- Page Loader -->
+
+            <header class="header header-two sombra_menu">
+           <div class="header-wrapper">
+            <nav class="navbar">
+               <div class="container">
+                  <div class="navbar-header logo-box">
+                    <div class="logo">
+                     <a href="index.html">
+                       <img src="images/logo-eng-pell.png" class="logo-img" alt="Engpell">
+                     </a>
+                    </div>
+                  </div><!-- .logo-box -->
+                  
+                  <div class="navbar-right right-box">
+                    <div class="right-box-wrapper">
+                        
+                  
+                     <div class="primary">
+                        <div class="navbar navbar-default" role="navigation">
+                        <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target=".primary .navbar-collapse">
+                           <span class="text"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                        <ul class="collapse navbar-collapse nav navbar-nav navbar-center">
+                           <li><a class="scroll active" href="#home">Home</a></li>
+                           <li><a class="scroll" href="#quem-somos">Quiénes Somos</a></li>
+                           <li><a class="scroll" href="#produtos">Productos</a></li>
+                           <li><a class="scroll" href="#manutencao">Mantenimiento</a></li>
+                           <li><a class="scroll" href="#invista">Inversión</a></li>
+                           <li><a class="scroll" href="#contato">Contacto</a></li>
+                        </ul>
+                         <div id="idiomas">
+                            <ul class="">
+                               <li><a href="index.html"><img src="images/ico_brasil.png"></a></li>
+                               <!--li><a href="http://www.engpellmaquinas.com.br/?idioma=EN"><img src="images/ico_eng.png"></a></li-->
+                               <li><a href="index7a2d.html?idioma=ES"><img src="images/ico_espanha.png"></a></li>
+                            </ul>                       
+                         </div>
+
+                     </div><!-- .primary -->
+
+                    </div>
+                  </div>
+               
+                  
+                  </div>
+               </div>
+            </nav>
+           </div><!-- .header-wrapper -->
+           <div class="r_menu white corners_block"></div>
+         </header><!-- .header -->
+         <style type="text/css">
+         .r_menu {
+           background: url(images/round_menu.png) center top no-repeat transparent;
+           width: 100%;
+           height: 56px;
+           position: absolute;
+           margin-top: -5px;
+           left: 0;
+           z-index: 22;                    
+         }
+          div#idiomas {
+              float: right;
+              height: 42px;
+              line-height: 42px;
+              padding-left: 3em; 
+              /*display: none; */          
+          }
+
+          div#idiomas ul li {
+            float: left;
+          }
+          
+          div#idiomas ul li a {
+              padding: 4px;
+          }
+          
+          div#idiomas img {
+              width: 20px;
+          }         
+         </style>            <div id="main">
+                           <section id="home" class="full-width-box">
+                  <div class="slider rs-slider">
+                     <div class="tp-banner-container">
+                        <div class="tp-banner">
+                           <ul style="display:none">
+                              <!-- Slide -->
+
+                              
+                              <li data-delay="10300" data-transition="fade" data-slotamount="7" data-masterspeed="2000" class="slid2">
+                                <div class="elements">
+                                    <h2 class="tp-caption sft skewtotop title bold txt_branco size"
+                                       data-x="left" data-hoffset="550"
+                                       data-y="200" data-voffset="0"
+                                       data-speed="1000"
+                                       data-start="1100"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="400"
+                                       data-endeasing="Power1.easeIn">
+                                       NO IMPORTA EL ESPACIO                                    </h2>
+                                    <div class="tp-caption lfl skewtoleft hidden-xs txt_branco size1"
+                                       data-x="left" data-hoffset="550"
+                                       data-y="260" data-voffset="0"
+                                       data-speed="1000"
+                                       data-start="1000"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="400"
+                                       data-endeasing="Power1.easeIn">
+                                       Las máquinas Engpell se desarrollan de<br> acuerdo a su proyecto.                                       
+                                       <br><br>
+                                      Ver vídeo:                                      
+                                    </div>
+                                    <div class="tp-caption lfl" 
+                                       data-x="left" data-hoffset="550"
+                                       data-y="380"
+                                       data-speed="1000"
+                                       data-start="1000"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="400"
+                                       data-endeasing="Power1.easeIn"
+                                       style="max-width: 520px;">
+                                       <p><a href="https://youtu.be/S8K1FqxjbYc" rel="prettyPhoto" title=""><img width="250" src="images/img_video_banner.png"></a></p>
+                                    </div>                                            
+                                </div>
+                                                           
+                                 
+                                 <img src="images/dummy.png" data-lazyload="images/banner_home_d.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+                              </li>                                                      
+
+                              <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                                 <img src="images/dummy.png" data-lazyload="images/banner_home_b.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+
+                                    <h2 class="tp-caption lft skewtotop title bold size"
+                                       data-x="330"
+                                       data-y="150"
+                                       data-speed="1000"
+                                       data-start="1700"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="500"
+                                       data-captionhidden="on"
+                                       data-endeasing="Power1.easeIn">
+                                       <strong>Grabación y conjunto de cilindro.</strong>
+                                    </h2>
+                                    <h2 class="tp-caption lft skewtotop title bold size"
+                                       data-x="450"
+                                       data-y="200"
+                                       data-speed="1000"
+                                       data-start="1700"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="500"
+                                       data-captionhidden="on"
+                                       data-endeasing="Power1.easeIn">
+                                       <strong style="font-size: 28px !important;">Golfradores papel de seda:</strong>
+                                    </h2>
+
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="250"
+                                         data-y="300"
+                                         data-speed="600"
+                                         data-start="1100"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b1.jpg"></a>
+                                    </div>
+
+                    
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="400"
+                                         data-y="300"
+                                         data-speed="600"
+                                         data-start="1200"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b2.jpg"></a>
+                                    </div>
+                                    
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="550"
+                                         data-y="300"
+                                         data-speed="600"
+                                         data-start="1300"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b3.jpg"></a>
+                                    </div>                                    
+
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="700"
+                                         data-y="300"
+                                         data-speed="300"
+                                         data-start="1400"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b4.jpg"></a>
+                                    </div>                    
+
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="850"
+                                         data-y="300"
+                                         data-speed="600"
+                                         data-start="1500"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b5.jpg"></a>
+                                    </div>
+                                    
+                                    
+                                    
+                                    
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="250"
+                                         data-y="440"
+                                         data-speed="300"
+                                         data-start="1600"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b11.jpg"></a>
+                                    </div>         
+
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="400"
+                                         data-y="440"
+                                         data-speed="300"
+                                         data-start="1700"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b7.jpg"></a>
+                                    </div>                                                               
+
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="550"
+                                         data-y="440"
+                                         data-speed="300"
+                                         data-start="1800"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b8.jpg"></a>
+                                    </div>
+
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="700"
+                                         data-y="440"
+                                         data-speed="300"
+                                         data-start="1900"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b9.jpg"></a>
+                                    </div>                                    
+
+                                    <div class="caption reduzir_img_banner randomrotate"
+                                         data-x="850"
+                                         data-y="440"
+                                         data-speed="300"
+                                         data-start="2000"
+                                         data-easing="easeOutExpo">
+                                         <img class="img-border" src="images/bn_b10.jpg"></a>
+                                    </div>                                    
+
+
+                              </li>
+                              <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                                 <img src="images/dummy.png" data-lazyload="img/content/slider/rs-slider4-bg.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+                                 <div class="elements">
+                                    <div class="tp-caption lfb"
+                                       data-x="0"
+                                       data-y="135"
+                                       data-speed="1000"
+                                       data-start="2040"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="500"
+                                       data-endeasing="Power1.easeIn"
+                                       style="z-index: 4">
+                                       <img src="images/dummy.png" data-lazyload="img/content/slider/rs-slider1-img2.png" width="500" height="700" alt="">
+                                    </div>
+                                    <h2 class="tp-caption lft skewtotop title bold size"
+                                       data-x="502"
+                                       data-y="201"
+                                       data-speed="1000"
+                                       data-start="1700"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="500"
+                                       data-captionhidden="on"
+                                       data-endeasing="Power1.easeIn">
+                                       <strong>CUSTOM CUIDADO CONCENTRAR <br>EN SUS NECESIDADES.</strong>
+                                    </h2>
+                                    <h2 class="tp-caption lft skewtotop title size2"
+                                       data-x="502"
+                                       data-y="300"
+                                       data-speed="1000"
+                                       data-start="1700"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="500"
+                                       data-captionhidden="on"
+                                       data-endeasing="Power1.easeIn">
+                                       Personal para operar y cambiar el tamaño de cualquier sector<br> de la máquina y el mantenimiento deseado disponible, garantizando así la completa satisfacción de nuestros clientes y socios entrenado.                                       
+                                    </h2>
+                                 </div>
+                              </li>
+                              <!-- Slide Ends -->
+                              <!-- Slide -->
+                              <li data-delay="10300" data-transition="fade" data-slotamount="7" data-masterspeed="2000" class="slid2">
+                                 <div class="elements">
+                                    <h2 class="tp-caption sft skewtotop title bold txt_branco"
+                                       data-x="15"
+                                       data-y="241"
+                                       data-speed="1000"
+                                       data-start="1100"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="400"
+                                       data-endeasing="Power1.easeIn">
+                                        INNOVACIÓN EN LA PRESENTE<br> CAMINO AL FUTURO.                                    </h2>
+                                    <div class="tp-caption lfl skewtoleft description col-xs-5 hidden-xs txt_branco"
+                                       data-x="0"
+                                       data-y="410"
+                                       data-speed="1000"
+                                       data-start="1000"
+                                       data-easing="Power4.easeOut"
+                                       data-endspeed="400"
+                                       data-endeasing="Power1.easeIn"
+                                       style="max-width: 520px;">
+                                       <p>20 años anticipando las tendencias en el mercado de la fabricación de maquinaria y equipos para la conversión de productos de papel desechables en la zona.</p>
+                                    </div>                                   
+                                 </div>
+                                 <img src="images/dummy.png" data-lazyload="images/banner_home_a.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+                              </li>   
+                              
+                              <!-- Slide Ends -->
+                              <!-- Slide -->
+
+                              <!-- Slide Ends -->
+                           </ul>
+                           <div class="tp-bannertimer"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- .rs-slider -->
+               </section>               <!-- #home -->
+               <style type="text/css">
+               .r_wo_i {
+                 background: url(images/round_menu_bottom.png) center top no-repeat transparent;
+                 width: 100%;
+                 height: 164px;
+                 position: absolute;
+                 margin-top: -134px;
+                 left: 0;
+                 z-index: 22;
+               }
+               </style>
+               <div class="r_wo_i white corners_block"></div>               
+               <section id="quem-somos" class="full-width-box pd_section">
+
+                  <div class="title-box">
+                     <h1 class="title"><span>Quiénes Somos</span></h1>
+                  </div>
+                  <div class="container">
+                     <div class="row">
+                        <div class="content col-sm-6 col-md-6" data-appear-animation="fadeInUp" data-appear-animation-delay="400">
+                             
+
+					<p><img alt="" src="../engpell.com.br/administracao/images/empresa/foto_predio1_250206055.jpg" style="float:left; height:215px; margin:10px 20px; width:250px" />Con 26 a&ntilde;os de actividad en el mercado de industrializaci&oacute;n de m&aacute;quinas y equipos para conversi&oacute;n de productos desechables en el &aacute;rea de papel, ENG-PELL tiene como principal objetivo ofrecer al mercado tecnolog&iacute;a en equipos de alto desempe&ntilde;o, con una atenci&oacute;n personalizada y diferenciada.</p>
+
+<p>Nuestro personal especializado y con experiencia nos permite anticiparnos a las tendencias de mercado y ofrecer a nuestros clientes soluciones innovadoras, que ayudan a optimizar el tiempo de producci&oacute;n y reducci&oacute;n de costos.</p>
+
+<p>Operamos en todo el pa&iacute;s, manteniendo siempre la flexibilidad de dise&ntilde;ar e industrializar el equipo de acuerdo con la necesidad de nuestro cliente. Para ello, contamos con un sector de proyectos y un personal t&eacute;cnico capacitado para operar y dimensionar cualquier tipo de m&aacute;quina deseada, adem&aacute;s, ponemos a disposici&oacute;n nuestro personal de asistencia t&eacute;cnica, garantizando la satisfacci&oacute;n plena de nuestros clientes y socios.</p>
+
+<p>Trabajo, calidad y progreso forman parte de nuestra historia.Nuestra filosof&iacute;a de trabajo es: alianza con nuestros clientes con el prop&oacute;sito de crecer juntos.</p>
+
+<p><br />
+&nbsp;</p>
+    
+
+    
+                        </div> <!-- FIM .content col-sm-6 col-md-6 -->
+                        <div class="content col-sm-6 col-md-6" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
+
+                            <!-- inicio tabs -->     
+
+                           <div class="tabs">
+                             <ul class="nav nav-tabs">
+                              <li class="active">
+                                <a href="#services0" data-toggle="tab"><i class="fa fa-gears"></i> Misión</a>
+                              </li>
+                              <li>
+                                <a href="#features0" data-toggle="tab"><i class="fa fa-share-square-o"></i> Visión</a>
+                              </li>
+                              <li>
+                                <a href="#text0" data-toggle="tab"><i class="fa fa-folder-open-o"></i> Valores</a>
+                              </li>
+                             </ul>
+
+                             <div class="tab-content">
+                              <div class="tab-pane active fade in" id="services0">
+                                      
+
+					<p>Impulsar el crecimiento continuo de nuestros clientes a trav&eacute;s de mejoras continuas en la industrializaci&oacute;n de equipos diferenciados.<span style="line-height:1.6em">Trabajar de forma &uacute;nica, en alianza con colaboradores, proveedores y clientes, en la b&uacute;squeda de la satisfacci&oacute;n mutua de los negocios.</span></p>
+    
+
+                                  </div>
+                              
+                              <div class="tab-pane fade in" id="features0">
+                                      
+
+					<p>Consciente de su responsabilidad como fabricante de equipos, tiene como principal objetivo anticiparse a las tendencias del mercado con el prop&oacute;sito de ofrecer a sus clientes soluciones innovadoras, optimizar el tiempo de producci&oacute;n y reducir costos, con vistas a la prosperidad y la satisfacci&oacute;n plena de sus clientes.</p>
+    
+
+                                  </div>
+                              
+                              <div class="tab-pane fade in" id="text0">
+                                      
+
+					<p>&Eacute;tica, Alianza, Motivaci&oacute;n y Trabajo.</p>
+    
+
+                                  </div>
+                             </div>
+                           </div>
+
+                            <!-- fim tabs-->
+
+
+
+                        </div> <!-- FIM .content col-sm-6 col-md-6 -->
+
+                     </div>
+                  </div>
+
+
+
+                  <!-- INICIO linha do tempo -->
+                  <style type="text/css">
+                  .round_time_line {
+                    background: url(images/round-white-up-noicon.png) center top no-repeat transparent;
+                    width: 100%;
+                    height: 164px;
+                    position: absolute;
+                    margin-top: 0px;
+                    left: 0;
+                    z-index: 22;
+                  }
+                  </style>
+                  <div class="round_time_line white corners_block"></div>                
+                  <!-- .Fun Factors -->
+                  <section id="features" class="full-width-box" style=" background-color:#E9AF20">
+
+                        <br>
+                        <div class="title-box linha_branca text-center">
+                           <!-- Heading -->
+                           <h2 class="title"><span class="title_time_line">Línea del Tiempo</span></h2>
+                        </div>
+
+                     <div class="container">
+                        <div class="row services">
+
+                           <div id="timeline">
+     <ul id="dates">
+                                
+    
+        	 <li><a href="3.html" class="selected">1996</a></li>
+        	 <li><a href="1.html" class="">1998</a></li>
+        	 <li><a href="2.html" class="">2000</a></li>
+        	 <li><a href="6.html" class="">2007</a></li>
+        	 <li><a href="4.html" class="">2010</a></li>
+        	 <li><a href="7.html" class="">2015</a></li>
+    	</ul>
+     <ul id="issues">
+    
+             <li id="3" class="selected">
+                	                   <p>ENG-PELL inicia sus actividades con un plantel de cinco empleados, con el objetivo de ofrecer mantenimiento a diversas m&aacute;quinas.Inicialmente est&aacute;bamos ubicados en un peque&ntilde;o galp&oacute;n, con pocas maquinarias, pero con un gran deseo de hacer la diferencia en el mercado.</p>
+             </li>
+
+        
+             <li id="1" class="selected">
+                	                   <p>R&aacute;pidamente, adquirimos el conocimiento necesario para enfocarnos en el mercado de m&aacute;quinas y equipos personalizados.Nos mudamos a otro galp&oacute;n con mejor estructura f&iacute;sica, con el objetivo de poder contener nuevas maquinarias y nuevos empleados.</p>
+             </li>
+
+        
+             <li id="2" class="selected">
+                	                   <p>Antes de terminar su quinto a&ntilde;o de historia ENG-PELL ya ten&iacute;a una cartera de clientes, en ese per&iacute;odo fue necesario realizar cambios organizacionales para seguir atendiendo el mercado cada vez m&aacute;s y mejor.</p>
+             </li>
+
+        
+             <li id="6" class="selected">
+                	                   <p>Con el transcurso de los a&ntilde;os ENG-PELL aprendi&oacute; a definir nuevas directrices de trabajo y de manera planificada. Fue as&iacute; que, cuando not&oacute; la necesidad de continuar creciendo, dio inicio al proceso de compra de un terreno, con el prop&oacute;sito de construir su sede al a&ntilde;o siguiente.El nuevo espacio fue dise&ntilde;ado[1]para distribuir mejor los sectores, paralelamente ENG-PELL continu&oacute; la mejora de sus procesos administrativos y operativos con el objetivo de innovar sus equipos.El resultado de esos cambios fue la conquista de nuevos clientes, ampliaci&oacute;n de los negocios y contactos en varios estados.</p>
+             </li>
+
+        
+             <li id="4" class="selected">
+                	                   <p>En este per&iacute;odo, ENG-PELL, mejor estructurada, intensific&oacute; sus inversiones en evoluci&oacute;n, intentando mantener el diferencial competitivo, siempre con el deseo de tener un crecimiento continuo y el fortalecimiento de su marca en el mercado.[</p>
+             </li>
+
+        
+             <li id="7" class="selected">
+                	                   <p>Con el anhelo constante de evolucionar en su segmento, ENG-PELL abre sus puertas al mundo, ingresando, finalmente, al mercado internacional.Fruto de la alianza entre&nbsp;sus colaboradores, proveedores y CLIENTES.Este es el futuro&nbsp;para ENG-PELL: generar&nbsp;buenas oportunidades de negocios y crecimiento mutuo.[</p>
+             </li>
+
+       	</ul>
+	<div id="grad_top"></div>
+	<div id="grad_bottom"></div>
+	<a href="#" id="next"><i class="fa fa-chevron-down"></i></a>
+	<a href="#" id="prev"><i class="fa fa-chevron-up"></i></a>
+
+
+
+                        </div>
+                        <div class="clearfix"></div>
+                     </div>
+                  </section>
+
+                  <style type="text/css">
+                     .round_bottom_sobre {
+                       background: url(images/round-white-down-noicon.png) center top no-repeat transparent;
+                       width: 100%;
+                       height: 103px;
+                       position: absolute;
+                       margin-top: -103px;
+                       left: 0;
+                       z-index: 22;
+                     }
+                  </style>
+                  <div class="round_bottom_sobre white corners_block"></div>
+
+                  <!-- FIM linha do tempo -->
+
+
+               </section>
+               <!-- FIM #quem-somos -->
+
+
+
+               <!-- INICIO #produtos -->
+               <section id="produtos" class="full-width-box pd_section">                  
+                  <div class="container-fluid">
+                     <div class="title-box">
+                        <h1 class="title"><span>Productos</span></h1>
+                     </div>
+                     <div class="container">
+                        <!-- .filter-buttons -->
+                        <div class="clearfix"></div>
+                        <div class="row">
+
+                              <div class="col-sm-4 col-md-4" data-appear-animation="fadeInDown" data-appear-animation-delay="400">
+                                 <div class="list-group">
+                                   			<a class="list-group-item ativo" href="javascript:MostraProduto(7,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 01 - Máquina de toalla de papel interfoliada - dos pliegues</a>
+							<input type="hidden" id="hidden_produto" value="7">
+								<a class="list-group-item " href="javascript:MostraProduto(14,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 02 - Máquina rebobinadora de papel higiénico / rollo grande / sabana hospitalaria - semiautomática</a>
+								<a class="list-group-item " href="javascript:MostraProduto(22,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 03 - Máquina rebobinadora de papel higiénico rollo grande / sabana hospitalaria / bobina secamanos</a>
+								<a class="list-group-item " href="javascript:MostraProduto(9,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 04 - Máquina sierra de cinta</a>
+								<a class="list-group-item " href="javascript:MostraProduto(8,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 05 - Máquina fabricadora de tubo</a>
+								<a class="list-group-item " href="javascript:MostraProduto(1,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 06 - Máquina TV 14x14 cm</a>
+								<a class="list-group-item " href="javascript:MostraProduto(23,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 07 - Maquina TV 14x14 cm - Doble</a>
+								<a class="list-group-item " href="javascript:MostraProduto(4,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 08 - Máquina de servilleta 20x22 cm simple</a>
+								<a class="list-group-item " href="javascript:MostraProduto(5,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 09 - Máquina de servilleta 20x22 cm doble</a>
+								<a class="list-group-item " href="javascript:MostraProduto(6,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 10 - Máquina de servilleta 30x32 cm simple</a>
+								<a class="list-group-item " href="javascript:MostraProduto(17,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 11 - Máquina de servilleta con impresión cilindro estándar</a>
+								<a class="list-group-item " href="javascript:MostraProduto(16,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 12 - Máquina de servilleta con impresión tambor central</a>
+								<a class="list-group-item " href="javascript:MostraProduto(24,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 13 - Máquina de servilleta L 16x21 cm </a>
+								<a class="list-group-item " href="javascript:MostraProduto(13,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 14 - Máquina rotativa con colores</a>
+								<a class="list-group-item " href="javascript:MostraProduto(25,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 15 - Máquina de papel acoplado</a>
+								<a class="list-group-item " href="javascript:MostraProduto(26,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 16 - Máquina cortadora de hoja / resmadora</a>
+								<a class="list-group-item " href="javascript:MostraProduto(11,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 17 - Máquina bolsa de papel de 0,5 kg a 3 kg</a>
+								<a class="list-group-item " href="javascript:MostraProduto(12,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 18 - Máquina bolsa de papel de 0,5 kg a 15 kg</a>
+								<a class="list-group-item " href="javascript:MostraProduto(15,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 19 - Máquina rebobinadora industrial</a>
+								<a class="list-group-item " href="javascript:MostraProduto(10,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 20 - Máquina TNT</a>
+								<a class="list-group-item " href="javascript:MostraProduto(27,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 21 - Enfardadora neumática para toalla de papel interfoliada</a>
+								<a class="list-group-item " href="javascript:MostraProduto(29,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 22 - Aparatos de impresión</a>
+								<a class="list-group-item " href="javascript:MostraProduto(19,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 23 - Culatas sueltas</a>
+								<a class="list-group-item " href="javascript:MostraProduto(28,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 24 - Calandras / Cilindros gofradores</a>
+								<a class="list-group-item " href="javascript:MostraProduto(30,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 25 - Engranajes y Cilindros de impresión</a>
+								<a class="list-group-item " href="javascript:MostraProduto(18,'ES','2')"><i class="fa fa-cog fa-spin"></i>&nbsp; 26 - Selladoras</a>
+					                                 </div>
+                                 <br>
+                              </div>
+                              <div class="col-sm-8 col-md-8" id="conteudo_produto" data-appear-animation="fadeInDown" data-appear-animation-delay="600">                              
+                              
+                              </div>
+
+                        </div>
+                     </div>
+                  </div>
+
+
+                  <style type="text/css">
+                     .rb_wo_i_d {
+                       background: url(images/round-white-down-noicon2.png) center top no-repeat transparent;
+                       width: 100%;
+                       height: 132px;
+                       position: absolute;
+                       margin-top: -38px;
+                       left: 0;
+                       z-index: 22;
+                     }
+                  </style>
+                  <div class="rb_wo_i_d white corners_block"></div>
+
+                  <section id="worksss" class="full-width-box conteudo_paralax">
+                     <div class="fwb-bg fwb-parallax band-13" data-stellar-background-ratio="0.2">
+                        <div class="overlay"></div> 
+                        <div class="container">
+                           <div class="row">
+                              <h2 class="title white">FLEXIBILIDAD PARA DISEÑAR <br> Y INDUSTRIALIZAR SU EQUIPO</h2>
+                           </div>   
+                        </div>                          
+                     </div>
+                  </section>                  
+                  <style type="text/css">
+  
+
+                  .round_map_bottom {
+                    background: url(images/round-white-up-noicon2.png) center top no-repeat transparent;
+                    width: 100%;
+                    height: 130px;
+                    position: absolute;
+                    margin-top: -130px;
+                    left: 0;
+                    z-index: 22;
+                  }                                       
+                  </style>
+
+                  <div class="round_map_bottom white corners_block"></div>
+               </section>
+               <!-- FIM #produtos -->
+            
+               <!-- INICIO #manutencao -->
+               <section id="manutencao" class="full-width-box pd_section">
+                  <div class="title-box">
+                     <h1 class="title"><span>Mantenimiento Técnico</span></h1>
+                  </div>               
+                  <div class="container">
+                     <div class="row">
+                          
+
+	<div class="col-sm-3 col-md-3" data-appear-animation="fadeInRight" data-appear-animation-delay="300">
+	   <img src="administracao/images/empresa/img_manutencao.jpg">      
+	</div>
+	<div class="col-sm-9 col-md-9" data-appear-animation="fadeInRight" data-appear-animation-delay="600">
+	   <p>ENG-PELL sabe que una m&aacute;quina inactiva significa p&eacute;rdidas, por eso, contamos con un equipo capacitado para escuchar e identificar las necesidades de cada uno de nuestros clientes y as&iacute; podemos ofrecer las mejores soluciones con el mejor costo beneficio.Todo el retorno que recibimos de los operadores que utilizan nuestras m&aacute;quinas es trasladado a la mesa de proyectos y las recomendaciones son estudiadas para mejorar el proceso de industrializaci&oacute;n de los equipos.</p>
+
+<p>Si tiene la necesidad de realizar cualquier reparaci&oacute;n en su m&aacute;quina, p&oacute;ngase en contacto con nuestro personal, ser&aacute; un gusto poder atenderlo.</p>
+                    
+	</div>  
+                                             
+                     </div>
+                  </div>
+               </section>
+               <!-- FIM #manutencao -->
+
+               <!-- INICIO #invista -->
+               <section id="invista" class="full-width-box pd_section">
+
+
+                  <!-- INICIO linha do tempo -->
+                  <style type="text/css">
+                  .round_time_line {
+                    background: url(images/round-white-up-noicon.png) center top no-repeat transparent;
+                    width: 100%;
+                    height: 164px;
+                    position: absolute;
+                    margin-top: 0px;
+                    left: 0;
+                    z-index: 22;
+                  }
+                  </style>
+                  <div class="round_time_line white corners_block"></div>                
+                  <!-- .Fun Factors -->
+                  <section id="features" class="full-width-box" style="background-color:#1B4166">
+
+                        <br>
+                        <div class="title-box linha_branca text-center">
+                           <!-- Heading -->
+                           <h2 class="title"><span class="title_invista">Inversión</span></h2>
+                        </div>
+
+                     <div class="container">
+                        <div class="row invista">
+                                  
+
+   <div class="col-sm-6 col-md-6 white" data-appear-animation="fadeInUp" data-appear-animation-delay="400">
+     <p>Realice su estabilidad financiera</p>
+
+<p>Con la necesidad de reducir costos y agilizar sus procesos, cada vez m&aacute;s personas y empresas utilizan los productos desechables para higiene, este fen&oacute;meno hace que el mercado de materiales desechables crezca continuamente. ENG-PELL desarrolla productos a medida para que pueda entrar en este negocio y obtenga buena rentabilidad. Todas nuestras m&aacute;quinas son dise&ntilde;adas para atender sus necesidades y son 100 % testeadas antes de ser entregadas; adem&aacute;s, ponemos a disposici&oacute;n personal t&eacute;cnico que prestar&aacute; todo el soporte necesario para el montaje y uso de la m&aacute;quina.</p>
+
+<p>Desarrollamos m&aacute;quinas para:</p>
+
+<ul>
+	<li>Papel toalla intercallado;</li>
+	<li>Servilleta de papel&nbsp;TV 14 x 14&nbsp;cm;</li>
+	<li>Servilleta de mesa 20x22&nbsp;cm pista doble y pista simple/ Mesa 30x32&nbsp;cm &ndash; con&nbsp;o sin impresi&oacute;n;</li>
+	<li>Servilleta 16x21&nbsp;cm - con o sin impresi&oacute;n;</li>
+	<li>Bolsa de papel: 0,5 a 3&nbsp;kg / 0,5 a 5kg / 0,5 a 15&nbsp;kg &ndash; con o sin impresi&oacute;n;</li>
+	<li>Rebobinadoras: 0,90 a 2,50&nbsp;m/ Papel higi&eacute;nico / Rollo grande 300 a 600&nbsp;m / Rollo peque&ntilde;o Sabana Hospitalaria / Bobinas 100x200 / Bobinas 200x200;</li>
+	<li>Corte de papel sierra de cinta: Higi&eacute;nico / Derivados;</li>
+	<li>Cortadoras de hojas: Toalla Bom Apetite / Papel acoplado / Fondo de Bandeja /Manteles / Derivados con o sin impresi&oacute;n;</li>
+	<li>TNT: bobina perforada o doblada;</li>
+	<li>Para pintar el papel.<br />
+	&nbsp;</li>
+</ul>
+
+<p>EN ENG-PELL PUEDE USAR SU TARJETA BNDES. PARA CONOCER M&Aacute;S HAGA CLIC AQU&Iacute;:&nbsp;<a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank">https://www.cartaobndes.gov.br/cartaobndes/</a></p>
+              
+   </div> 
+   <div class="col-sm-5 col-md-5" data-appear-animation="fadeInDown" data-appear-animation-delay="600">
+    <img src="administracao/images/empresa/img_invista_1009218549.png">       
+   </div> 
+
+      
+    
+                             
+
+                        </div>
+                        <div class="clearfix"></div>
+                     </div>
+                  </section>
+
+                  <style type="text/css">
+                     .round_bottom_sobre {
+                       background: url(images/round-white-down-noicon.png) center top no-repeat transparent;
+                       width: 100%;
+                       height: 103px;
+                       position: absolute;
+                       margin-top: -103px;
+                       left: 0;
+                       z-index: 22;
+                     }
+                  </style>
+                  <div class="round_bottom_sobre white corners_block"></div>
+
+                  <!-- FIM linha do tempo -->
+
+
+
+
+               </section>
+               <!-- FIM #invista -->
+              
+
+               <!-- INICIO #contato -->
+               <section id="contato" class="full-width-box pd_section">
+                  
+                  <div class="title-box">
+                     <h1 class="title"><span>Contacto</span></h1>
+                  </div>
+
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <address>
+                              <div class="title topico_contato"><i class="fa fa-map-marker"></i> Dirección </div>
+                              Av. Antônio Louzada Antunes, 455<br>Jardim Pedro José Nunes<br>São Paulo - SP/ Brazil  <br> Cep:08061000                           </address>
+                           <div class="clearfix"></div>
+                           <address>
+                               <div class="title topico_contato"><i class="fa fa-phone"></i> Teléfono</div>
+                               <div>+55 11 2030-2579 / 2297-2579</div>
+                                <div>+55 11 974752579 Whatsapp</div>
+                           </address>
+                           <div class="clearfix"></div>
+                           <address>
+                               <div class="title topico_contato"><i class="fa fa-skype"></i> Skype</div>
+                              <div><a href="skype:engpellmaquinas?call">engpellmaquinas</a></div>
+                           </address>
+                           <address>
+                               <div class="title topico_contato"><i class="fa fa-envelope"></i> Correo</div>
+                              <div><a href="mailto:contato@engpellmaquinas.com.br">contato@engpellmaquinas.com.br</a></div>
+                           </address>
+                            <address>
+                               <div class="title topico_contato"><i class="fa fa-desktop"></i> Visitas</div>
+                               <div style="margin-left: 9%;color: #1B4166"><h4 class="count-number" data-count="81112"><span class="counter">81112</span></h4></div>
+                           </address>
+                           
+                        </div>
+                        <div class="col-md-8">
+                           <form method="POST" class="register-form contact-form" id="form_contato" onsubmit="return valida_contato(this)">
+                              <div id="success"></div>
+                              <input type="text" placeholder="Nombre *" name="nome" class="form-control">
+                              <input type="text" placeholder="Ciudad *" name="cidade" class="form-control">
+                              <input type="text" placeholder="Estado *" name="estado" class="form-control">
+                              <input type="email" placeholder="Correo *" name="email" class="form-control">
+                              <input type="text" placeholder="Teléfono *" name="telefone" class="form-control">
+                              <textarea placeholder="Mensaje *" name="mensagem" class="form-control bottom-15"></textarea>
+                              <div class="clearfix"></div><span style="color:#FF0000;" id="resp_contato"></span>
+                              <div class="buttons-box clearfix text-center">
+                                 <button class="btn full btn-default" type="submit">Enviar</button>
+                              </div>
+                              <!-- .buttons-box -->
+                           </form>
+                           <span style="color: #1B4166;font-size: 30px; display:none;" id="status_contato">Datos enviados correctamente!</span>
+                        </div>
+
+                     </div>
+                  </div>
+                  <style type="text/css">
+                     .round_mapa{
+                       background: url(images/round-white-down-noicon2.png) center top no-repeat transparent;
+                       width: 100%;
+                       height: 132px;
+                       position: absolute;
+                       margin-top: -21px;
+                       left: 0;
+                       z-index: 22;
+                     }
+                  </style>
+                  <div class="round_mapa white corners_block"></div>
+
+                  <div class="map-box">
+                     <div  class="map-canvas"
+                        style="height: 550px;"
+                        data-zoom="17", 
+                        data-lat="-23.501814"
+                        data-lng="-46.462898"
+                        /*data-hue="#000"*/
+                        data-content="                                 
+                           <div class='title topico_contato'><strong>Eng-Pell</strong></div>
+
+                           <div class='title topico_contato'>
+                              <i class='fa fa-map-marker'></i> 
+                              Av. Antônio Louzada Antunes, 455-Jardim Pedro José Nunes<br>São Paulo - SP/ Brazil  - Cep:08061000                           </div>
+                           <div class='title topico_contato'><i class='fa fa-phone'></i>+55  aaa11 2030-2579</div>
+                           <div class='title topico_contato'><i class='fa fa-envelope'></i> <a href='mailto:contato@engpellmaquinas.com.br'>contato@engpellmaquinas.com.br</a></div>
+                        ">
+
+                     </div>
+                  </div>
+                  <style type="text/css">
+                  .r_wo_i2 {
+                    background: url(images/round-white-up-noicon2.png) center top no-repeat transparent;
+                    width: 100%;
+                    height: 130px;
+                    position: absolute;
+                    margin-top: -130px;
+                    left: 0;
+                    z-index: 22;
+                  }  
+                  </style>
+                  <div class="r_wo_i2 white corners_block"></div>
+            <div class="footer-top">
+               <div class="footer-social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a title="Eng-Pell no Youtube" href="https://www.youtube.com/user/engpellmaquinas" target="_blank"><i class="fa fa-youtube"></i></a>
+               </div>
+            </div>
+               </section>
+               <!-- #contact-us -->
+
+               <!-- .full-width-box -->
+            </div>
+            <!-- #main -->
+         </div>
+         <!-- .page-box-content -->
+         <footer id="footer">
+            <!-- .footer-top -->
+            <div class="footer-bottom">
+               <div class="container">
+                  <div class="row">
+                     <!-- Copyrights -->
+                     <div class="copyright col-xs-12 col-sm-6 col-md-6">
+                        Copyright © Eng-Pell, 2022.
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 text-right">
+                     <a href="http://www.kzulo.com.br/" target="_blank" title="Kzulo Propaganda"><span class="by-logo_kzulo"></span></a>
+                        <!-- Goto Top -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- .footer-bottom -->
+         </footer>
+      </div>
+      <!-- .page-box -->
+      <div class="clearfix"></div>
+      <script src="js/jquery.min.js"></script>
+
+      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+      <script src="js/bootstrap.min.js"></script>
+<!--      <script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>-->
+      <script src="js/jquery.touchSwipe.min.js"></script>
+      <script src="js/jquery.imagesloaded.min.js"></script>
+      <script src="js/jquery.appear.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/isotope.pkgd.min.js"></script>
+      <script src="js/SmoothScroll.js"></script>
+      <script src="js/masonry.pkgd.min.js"></script>
+      <script src="js/jquery.stellar.min.js"></script>
+<!--      <script src="js/raphael.min.js"></script>
+      <script src="js/livicons-1.3.min.js"></script>-->
+      <script src="js/revolution/jquery.plugins.min.js"></script>
+      <script src="js/revolution/jquery.revolution.min.js"></script>
+      <script src="js/bootstrapValidator.min.js"></script>
+
+      <script src="js/jquery.scrollbar.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+      <script src="js/main035f.js?79875"></script>
+      <script src="js/eng-pell96a3.js?01"></script>
+		
+       <script src="js/jquery.prettyPhoto.js"></script> 
+
+
+
+      <link rel="stylesheet" href="css/timelinr.css" media="screen" />
+
+      <script src="js/jquery.timelinr-0.9.54.js"></script>
+      <script>
+         $(function(){
+            $().timelinr({
+               orientation:   'vertical',
+               issuesSpeed:   300,
+               datesSpeed:    100,
+               arrowKeys:     'true',
+               startAt:    3
+            })
+         });
+         $(document).ready(function(){
+			
+				AcrescentarVisita();
+				
+               var id = $("#hidden_produto").val()
+               //alert(id)
+               MostraProduto(id,"ES","1")
+
+			$(".list-group a").click(function() {
+				$(this).parent().children().removeClass("ativo");
+				$(this).addClass("ativo");
+			});
+               
+         });
+                  
+ 		 function AcrescentarVisita(){		
+			//acrescentar visitante na tabela 
+			 $.ajax({ 
+               url: "contador_visita.php",
+               data:'qtde_visita='+81112,
+               type: "POST",
+               dataType: "html",
+               beforeSend: function(){
+               },
+               success: function(r){
+
+               },
+               complete:function(){
+               },
+               error: function(r){
+                  alert("Erro ao fazer a contagem de visita");
+               }
+            });   
+			// fim do contador de visita		
+		}
+		
+         function valida_contato(f){
+         
+         
+            if(f.nome.value == "" || f.nome.value == " "){
+               $("#resp_contato").html('Informe seu nome');
+               f.nome.focus();
+               return (false);
+               event.preventDefault();
+            }else{
+               $("#resp_contato").html('');
+            }
+			
+            if(f.cidade.value == "" || f.cidade.value == " "){
+               $("#resp_contato").html('Informe sua cidade');
+               f.cidade.focus();
+               return (false);
+               event.preventDefault();
+            }else{
+               $("#resp_contato").html('');
+            }
+			
+            if(f.estado.value == "" || f.estado.value == " "){
+               $("#resp_contato").html('Informe seu estado');
+               f.estado.focus();
+               return (false);
+               event.preventDefault();
+            }else{
+               $("#resp_contato").html('');
+            }			
+			
+            if(f.email.value == "" || f.email.value == " "){
+               $("#resp_contato").html('Informe seu e-mail');
+               f.email.focus();
+               return (false);
+            }else{
+               $("#resp_contato").html('');    
+            }
+            
+            if (f.email.value.indexOf('@', 0) == -1 || f.email.value.indexOf('.', 0) == -1) {
+               $("#resp_contato").html('Preencha corretamente o campo e-mail');    
+               f.email.focus();
+               return (false);
+            }else{
+               $("#resp_contato").html('');       
+            }  
+            if(f.telefone.value == "" || f.telefone.value == " "){
+               $("#resp_contato").html('Informe o telefone');
+               f.telefone.focus();
+               return (false);
+               event.preventDefault();
+            }else{
+               $("#resp_contato").html('');
+            }
+         
+            
+            if(f.mensagem.value == "" || f.mensagem.value == " "){
+               $("#resp_contato").html('Informe sua mensagem');
+               f.mensagem.focus();
+               return (false);
+            }else{
+               $("#resp_contato").html('');         
+            }
+         
+            var $form = jQuery('#form_contato'),
+            form_string = $form.serialize();
+            
+            $.ajax({ 
+               url: "enviar_email_contato.php",
+               data:form_string,
+               type: "POST",
+               dataType: "html",
+               beforeSend: function(){
+               },
+               success: function(r){
+                  $("#form_contato").fadeOut();
+                  $("#status_contato").fadeIn('slow');
+               },
+               complete:function(){
+                  $("#resp_contato").fadeIn('slow');
+                  document.getElementById("form_contato").reset();
+               },
+               error: function(r){
+                  //alert(r.status);
+                  //$("#ajax_loader").fadeOut();
+                  alert("Nao foi possível enviar sua mensagem, por favor, envie um email para 'contato@engpell.com.br'");
+               }
+            });   
+            return false;
+            
+         }
+</script>
+
+
+   </body>
+
+<!-- Mirrored from www.engpellmaquinas.com.br/?idioma=ES by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 24 Nov 2022 13:56:27 GMT -->
+</html>
