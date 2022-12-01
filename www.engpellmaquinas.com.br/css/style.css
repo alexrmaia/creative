@@ -3626,7 +3626,7 @@ h3.top-border.count-number:before{
   display: table-cell;
   height: 30px;
   max-width: 100%;
-  vertical-align: middle;
+  vertical-align: center;
 }
 .header .logo a {
   display: inline-block;
